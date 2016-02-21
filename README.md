@@ -24,4 +24,4 @@ Bob->Alice : hello
 {% endplantuml %}
 ```
 
-The plugin will replace the `{% plantuml %}` by PNG images.
+The plugin will replace the `{% plantuml %}` by SVG images (and PNG images for ebook output).

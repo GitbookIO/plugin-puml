@@ -4,7 +4,10 @@ module.exports = {
     blocks: {
         plantuml: {
             process: function(block) {
-                var format = block.kwargs.format || 'png';
+                var defaultFormat = this.options.generator == 'ebook'? 'png' : 'svg';
+                var format = block.kwargs.format || defaultFormat;
+
+                // Generate url
                 var encoded = plantumlEncoder.encode(block.body);
                 var href = 'http://www.plantuml.com/plantuml/' + format + '/' + encoded;
 

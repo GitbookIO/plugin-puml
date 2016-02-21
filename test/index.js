@@ -12,8 +12,7 @@ describe('PlantUML', function() {
             .withLocalPlugin(path.join(__dirname, '..'))
             .create()
             .then(function(result) {
-                console.log(result[0]);
-                assert.equal(result[0].content, '<h1 id="test-me">test me</h1>\n<p>Hello world. <sup>superscript text!</sup></p>')
+                assert.equal(result[0].content, '<p>This is a diagram:</p>\n<p><img src="http://www.plantuml.com/plantuml/svg/UDhZSifFqhLppCbCJbMmKiX8pSd9vm80FC85_m00"></p>')
             });
     });
 });
