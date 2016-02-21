@@ -4,7 +4,7 @@ module.exports = {
     blocks: {
         plantuml: {
             process: function(block) {
-                var defaultFormat = this.options.generator == 'ebook'? 'png' : 'svg';
+                var defaultFormat = this.generator == 'ebook'? 'png' : 'svg';
                 var format = block.kwargs.format || defaultFormat;
 
                 // Generate url
