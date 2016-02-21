@@ -19,3 +19,5 @@ This is a diagram:
 Bob->Alice : hello
 {% endplantuml %}
 ```
+
+The plugin will replace the `{% plantuml %}` by PNG images.
