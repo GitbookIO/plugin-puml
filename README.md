@@ -1,6 +1,10 @@
 # PlantUML in GitBook
 
-UML Diagrams rendering using PlantUML
+UML Diagrams rendering using PlantUML.
+
+[![Build Status](https://travis-ci.org/GitbookIO/plugin-puml.png?branch=master)](https://travis-ci.org/GitbookIO/plugin-puml)
+[![NPM version](https://badge.fury.io/js/gitbook-plugin-puml.svg)](http://badge.fury.io/js/gitbook-plugin-puml)
+
 
 Configure the plugin in your `book.json`:
 
