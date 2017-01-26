@@ -16,7 +16,7 @@
         "url": "https://github.com/GitbookIO/plugin-puml/issues"
     },
     "dependencies": {
-        "plantuml-encoder": "1.2.3"
+        "plantuml-encoder": "1.2.4"
     },
     "devDependencies": {
         "gitbook-tester": "1.3.0",
