@@ -2,7 +2,6 @@ sudo: false
 language: node_js
 node_js:
   - "6"
-  - "7.2"
-  - "7.3"
-  - "7.4"
   - "stable"
+install:
+  - npm uninstall -g jade minimatch graceful-fs
