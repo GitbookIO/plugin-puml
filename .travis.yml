@@ -3,5 +3,3 @@ language: node_js
 node_js:
   - "6"
   - "stable"
-before_install:
-  - npm uninstall -g jade minimatch graceful-fs
