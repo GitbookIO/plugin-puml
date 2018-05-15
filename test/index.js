@@ -37,7 +37,7 @@ describe('PlantUML', function() {
       .then(function(result) {
         assert.equal(
           result[0].content,
-          '<p>This is a diagram:</p>\n<p><img src="MY_PUML_SERVER_URL/plantuml/svg/UDhZSifFqhLppCbCJbMmKiX8pSd9vm80FC85_m00"></p>'
+          '<p>This is a diagram:</p>\n<p><img src="MY_PUML_SERVER_URL/svg/UDhZSifFqhLppCbCJbMmKiX8pSd9vm80FC85_m00"></p>'
         );
       });
   });

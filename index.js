@@ -1,6 +1,6 @@
 var plantumlEncoder = require('plantuml-encoder');
 
-var PUML_SERVER = process.env.PUML_SERVER || 'http://www.plantuml.com';
+var PUML_SERVER = process.env.PUML_SERVER || 'http://www.plantuml.com/plantuml';
 
 module.exports = {
   blocks: {
@@ -11,7 +11,7 @@ module.exports = {
 
         // Generate url
         var encoded = plantumlEncoder.encode(block.body);
-        var href = PUML_SERVER + '/plantuml/' + format + '/' + encoded;
+        var href = PUML_SERVER + '/' + format + '/' + encoded;
 
         return '<img src="' + href + '" />';
       }
